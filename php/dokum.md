@@ -10,3 +10,5 @@
 ![image](https://github.com/user-attachments/assets/469a3dd4-9cb2-4815-ab6e-cbd050799cdf)
 # hasil setelah di edit
 ![image](https://github.com/user-attachments/assets/ada1ad6b-0e7f-4d77-a60b-e8f194f47c60)
+# mencari data berdasarkan nama
+![image](https://github.com/user-attachments/assets/cb75b8b7-cd4f-465c-a9fc-bca70a1c2ee8)
