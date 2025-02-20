@@ -53,7 +53,18 @@ def main():
                     harga = int(input("Harga: "))
                     database[ubah] = Petshop(id, nama, kategori, harga)
                     print("Data berhasil diperbarui!")
-
+            elif cek == 5:
+                nama_cari = input("Masukkan nama yang ingin dicari: ")
+                found = False
+                for i, item in enumerate(database):
+                    if item.nama.lower() == nama_cari.lower():
+                        print(f"Data ditemukan pada indeks ke-{i}:")
+                        item.tampil()
+                        print("-----------------")
+                        found = True
+                        break
+                if not found:
+                    print("Data tidak ditemukan.")
             elif cek == 0:
                 print("Bubayyy.")
                 break
