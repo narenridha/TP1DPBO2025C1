@@ -72,6 +72,23 @@ public class Main {
                     System.out.println("Data berhasil diperbarui!");
                 }
 
+            } else if(cek == 5){
+                System.out.print("Masukkan nama yang ingin dicari: ");
+                String cariNama = sc.next();
+                boolean found = false;
+
+                for (int i = 0; i < database.size(); i++) {
+                    if (database.get(i).getNama().equalsIgnoreCase(cariNama)) {
+                        System.out.println("Data ditemukan pada indeks ke-" + i + ":");
+                        database.get(i).tampil();
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (!found) {
+                    System.out.println("Data dengan nama " + cariNama + " tidak ditemukan.");
+                }
             } else if (cek == 0) {
                 System.out.println("Bubayyy.");
             } else {
