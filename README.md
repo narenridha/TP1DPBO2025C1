@@ -24,6 +24,7 @@ Program ini adalah sistem manajemen sederhana untuk petshop yang memungkinkan pe
 Setiap bahasa pemrograman memiliki implementasi yang serupa, sehingga pengguna dapat memilih bahasa yang paling sesuai dengan kebutuhan mereka.  
 
 ## **Contoh Inputan**  
+```
 1
 101
 Kucing
@@ -62,4 +63,14 @@ Hewan_Peliharaan
 5
 Kelinci
 0
+```
+## Fitur Khusus (PHP)
+Versi PHP memiliki tampilan berbasis **web** dan mendukung fitur CRUD (Create, Read, Update, Delete) dengan pengalaman pengguna yang lebih interaktif:
 
+1. **Tombol "Tambah Data"** - Formulir untuk memasukkan data hewan baru (ID, Nama, Kategori, Harga, dan Foto).  
+2. **Tampilan Data** - Menampilkan daftar data hewan yang telah dimasukkan dalam bentuk tabel.  
+3. **Tombol "Edit"** - Mengedit informasi hewan yang telah dimasukkan.  
+4. **Tombol "Delete"** - Menghapus data hewan dari database.  
+5. **Tombol "Search"** - Fitur pencarian berdasarkan **nama hewan**.  
+
+![Screenshot 2025-02-20 164919](https://github.com/user-attachments/assets/a89075cf-434f-4412-943c-2efc6f7b6a35)
