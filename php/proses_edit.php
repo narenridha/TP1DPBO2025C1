@@ -1,6 +1,8 @@
 <?php
+// Mengimpor file 'Petshop.php' yang berisi kelas Petshop
 include 'Petshop.php';
 
+// Mengambil data melalui metode post
 $index = $_POST['index'];
 $id = $_POST['id'];
 $nama = $_POST['nama'];
